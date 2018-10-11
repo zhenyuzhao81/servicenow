@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_transform_map">
+    <sys_transform_map action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copy_empty_fields>false</copy_empty_fields>
+        <enforce_mandatory_fields>No</enforce_mandatory_fields>
+        <name>u_imp_tmpl_x_265630_safety_issue</name>
+        <order>100</order>
+        <run_business_rules>true</run_business_rules>
+        <run_script>false</run_script>
+        <script><![CDATA[(function transformRow(source, target, map, log, isUpdate) {
+
+	// Add your code here
+
+})(source, target, map, log, action==="update");]]></script>
+        <source_table>u_imp_tmpl_x_265630_safety_issue</source_table>
+        <sys_class_name>sys_transform_map</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-10-11 21:56:08</sys_created_on>
+        <sys_id>1d60121edb8163009d999ca4db9619df</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_imp_tmpl_x_265630_safety_issue</sys_name>
+        <sys_package display_value="Safety" source="x_265630_safety">268bca9adb4163009d999ca4db96191c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Safety">268bca9adb4163009d999ca4db96191c</sys_scope>
+        <sys_update_name>sys_transform_map_1d60121edb8163009d999ca4db9619df</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-10-11 21:56:08</sys_updated_on>
+        <target_table>x_265630_safety_issue</target_table>
+    </sys_transform_map>
+</record_update>
